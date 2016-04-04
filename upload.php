@@ -5,6 +5,7 @@ It will then transfer the read data to deposit.php
  -->
 <?php
 ini_set ( 'display_errors', 1 );ini_set ( 'display_startup_errors', 1 );error_reporting ( E_ALL );
+include ("index.html");
 include ("existsServer.php");
 include ("sanitize.php");
 include ("inputRates.php");
